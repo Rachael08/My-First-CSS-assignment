@@ -1,0 +1,15 @@
+.first-section>h1{
+    color: palevioletred;
+}
+h1+p{
+    font-style: italic;
+}
+.hidden-details{
+display: none;
+}
+.first-section:hover+.hidden-details{
+    display: block;
+}
+.hidden-details p::first-line{
+        font-size: 2rem;
+}
